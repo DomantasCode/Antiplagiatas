@@ -28,12 +28,12 @@ int main() {
     int data[] = {5, 1, 4, 2, 8};
     int size = sizeof(data) / sizeof(data[0]);
 
-    cout << " Sorting: ";
+    cout << ": ";
     displayArray(data, size);
 
     bubbleSort(data, size);
 
-    cout << "After : ";
+    cout << " Sorting: ";
     displayArray(data, size);
 
     return 0;

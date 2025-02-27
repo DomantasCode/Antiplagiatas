@@ -28,7 +28,7 @@ int main() {
     int data[] = {5, 1, 4, 2, 8};
     int size = sizeof(data) / sizeof(data[0]);
 
-    cout << "Before Sorting: ";
+    cout << "Before: ";
     displayArray(data, size);
 
     bubbleSort(data, size);
